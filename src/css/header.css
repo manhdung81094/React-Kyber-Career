@@ -1,0 +1,17 @@
+.item-menu-header .nav-link {
+    color: #868787;
+    font-weight: 600;
+}
+
+.item-menu-header a:hover {
+    color: #31cb9e !important;
+}
+
+.img-banner {
+    object-fit: cover;
+    height: 25rem !important;
+}
+
+.txt-ques{
+    color: #31cb9e;
+}

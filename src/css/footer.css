@@ -1,0 +1,13 @@
+.img-footer{
+    height: 3.5rem !important;
+}
+.text-item-footer{
+    color: #a7b6bd;
+}
+.list-group-item a:hover{
+    color:white;
+}
+.under-footer{
+    background-color: #243036;
+    height: 4rem;
+}
