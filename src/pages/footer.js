@@ -10,6 +10,7 @@ import LogoReddit from '../image_upload/reddit.svg'
 import LogoFacebook from '../image_upload/facebook.svg'
 import LogoGithub from '../image_upload/github.svg'
 import LogoBlockfolio from '../image_upload/ftx.svg'
+import ReactTooltip from "react-tooltip";
 function Footer() {
     return (
         <div>
@@ -66,49 +67,76 @@ function Footer() {
                     <div className='col-md-6 d-flex align-items-center justify-content-center'>
                         <ul class="list-group list-group-horizontal">
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="TwitterToolTip">
                                     <img src={LogoTwitter} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="TwitterToolTip" place="top" effect="solid">
+                                    Follow us on Twitter
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="DiscordToolTip">
                                     <img src={LogoDiscord} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="DiscordToolTip" place="top" effect="solid">
+                                    Join our Discord group
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="TelegramToolTip">
                                     <img src={LogoTelegram} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="TelegramToolTip" place="top" effect="solid">
+                                    Follow our Telegram group
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="MToolTip">
                                     <img src={LogoM} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="MToolTip" place="top" effect="solid">
+                                    Read our blog on Medium
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="YoutubeToolTip">
                                     <img src={LogoYoutube} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="YoutubeToolTip" place="top" effect="solid">
+                                    Subscribe to our YouTube channel
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="RedditToolTip">
                                     <img src={LogoReddit} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="RedditToolTip" place="top" effect="solid">
+                                    Follow us on Reddit
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="FacebookToolTip">
                                     <img src={LogoFacebook} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="FacebookToolTip" place="top" effect="solid">
+                                    Follow us on Facebook
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="GithubToolTip">
                                     <img src={LogoGithub} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="GithubToolTip" place="top" effect="solid">
+                                    Follow us on Github
+                                </ReactTooltip>
                             </li>
                             <li class="list-group-item border-0 bg-logo-footer">
-                                <a href='#!'>
+                                <a href='#!' data-tip data-for="BlockfolioToolTip">
                                     <img src={LogoBlockfolio} className='img-fluid' alt='...' />
                                 </a>
+                                <ReactTooltip id="BlockfolioToolTip" place="top" effect="solid">
+                                    Follow us on Blockfolio
+                                </ReactTooltip>
                             </li>
                         </ul>
                     </div>
