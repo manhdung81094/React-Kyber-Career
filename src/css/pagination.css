@@ -1,0 +1,39 @@
+.pagination {
+    padding: 30px 0;
+}
+
+.pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 18px;
+    color: #868787;
+}
+
+/* ONE */
+
+.p1 a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+}
+.p1 a:hover {
+    text-decoration: none;
+    background-color: #f9f9f9;
+    border-radius: 100%;
+    color: #38e0ad;
+}
+.p1 a.is-active {
+    text-decoration: none;
+    background-color: #f9f9f9;
+    border-radius: 100%;
+    color: #38e0ad;
+}

@@ -21,3 +21,7 @@
 .txt-ques{
     color: #31cb9e;
 }
+.position-header{
+    position: fixed;
+    z-index: 1;
+}

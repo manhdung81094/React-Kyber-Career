@@ -1,10 +1,22 @@
-.product-content{
+.product-content {
     background-color: #f9f9f9 !important;
     border-radius: 0.5rem !important;
 }
-.link-product{
-    color:#31cb9e !important;
+
+.link-product {
+    color: #31cb9e !important;
 }
-.link-product:hover{
-    color:#38e0ad !important;
+
+.link-product:hover {
+    color: #38e0ad !important;
 }
+
+.card-text {
+    color: #868787 !important;
+}
+
+.select-option-content {
+    background-color: #f9f9f9 !important;
+    border-radius: 2rem !important;
+}
+

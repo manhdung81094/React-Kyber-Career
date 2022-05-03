@@ -3,7 +3,7 @@ import Product from '../index/product';
 
 function Content(){
     return(
-        <div className='container'>
+        <div className='container pt-5'>
             <Product />
         </div>
     )

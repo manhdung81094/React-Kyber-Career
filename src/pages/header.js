@@ -5,7 +5,7 @@ import '../css/header.css'
 import UrlImage from '../image_upload/kyber-logo.svg'
 function Header() {
     return (
-        <div className='col-md-12 shadow-sm p-3 mb-5 bg-body rounded pt-0 pb-0'>
+        <div className='col-md-12 shadow-sm p-3 mb-5 bg-body rounded pt-0 pb-0 position-header'>
             <div className='container'>
                 <Nav as="ul" className='menu-header'>
                     <Nav.Item as="li">
