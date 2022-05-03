@@ -13,7 +13,7 @@ import LogoBlockfolio from '../image_upload/ftx.svg'
 import ReactTooltip from "react-tooltip";
 function Footer() {
     return (
-        <div>
+        <div className='col-md-12'>
             <footer className="bg-dark text-center text-white">
                 <div className="container">
                     <div className="row pt-5 pb-5">
@@ -60,13 +60,13 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='row under-footer'>
+                <div className='row under-footer w-100 ms-0'>
                     <div className='col-md-6 d-flex align-items-center justify-content-center'>
                         <span>@ 2021 Kyber Network. All rights reserved.</span>
                     </div>
                     <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item border-0 bg-logo-footer">
+                        <ul className="list-group list-group-horizontal">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="TwitterToolTip">
                                     <img src={LogoTwitter} className='img-fluid' alt='...' />
                                 </a>
@@ -74,7 +74,7 @@ function Footer() {
                                     Follow us on Twitter
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="DiscordToolTip">
                                     <img src={LogoDiscord} className='img-fluid' alt='...' />
                                 </a>
@@ -82,7 +82,7 @@ function Footer() {
                                     Join our Discord group
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="TelegramToolTip">
                                     <img src={LogoTelegram} className='img-fluid' alt='...' />
                                 </a>
@@ -90,7 +90,7 @@ function Footer() {
                                     Follow our Telegram group
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="MToolTip">
                                     <img src={LogoM} className='img-fluid' alt='...' />
                                 </a>
@@ -98,7 +98,7 @@ function Footer() {
                                     Read our blog on Medium
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="YoutubeToolTip">
                                     <img src={LogoYoutube} className='img-fluid' alt='...' />
                                 </a>
@@ -106,7 +106,7 @@ function Footer() {
                                     Subscribe to our YouTube channel
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="RedditToolTip">
                                     <img src={LogoReddit} className='img-fluid' alt='...' />
                                 </a>
@@ -114,7 +114,7 @@ function Footer() {
                                     Follow us on Reddit
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="FacebookToolTip">
                                     <img src={LogoFacebook} className='img-fluid' alt='...' />
                                 </a>
@@ -122,7 +122,7 @@ function Footer() {
                                     Follow us on Facebook
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="GithubToolTip">
                                     <img src={LogoGithub} className='img-fluid' alt='...' />
                                 </a>
@@ -130,7 +130,7 @@ function Footer() {
                                     Follow us on Github
                                 </ReactTooltip>
                             </li>
-                            <li class="list-group-item border-0 bg-logo-footer">
+                            <li className="list-group-item border-0 bg-logo-footer">
                                 <a href='#!' data-tip data-for="BlockfolioToolTip">
                                     <img src={LogoBlockfolio} className='img-fluid' alt='...' />
                                 </a>

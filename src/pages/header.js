@@ -1,40 +1,39 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
+import { Link } from "react-router-dom";
 import '../css/header.css'
 import UrlImage from '../image_upload/kyber-logo.svg'
-import Search from '../pages/search.js'
 function Header() {
     return (
-        <>
+        <div className='col-md-12 shadow-sm p-3 mb-5 bg-body rounded pt-0 pb-0'>
             <div className='container'>
                 <Nav as="ul" className='menu-header'>
                     <Nav.Item as="li">
-                        <Nav.Link href="#">
+                        <Link to="/" className='nav-link'>
                             <img src={UrlImage} className='img-fluid' alt='...' />
-                        </Nav.Link>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Home</Nav.Link>
+                        <Link to="/" className='nav-link'>Home</Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Team</Nav.Link>
+                        <Link to="/team" className='nav-link'>Team</Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Culture</Nav.Link>
+                        <Link to="/culture" className='nav-link'>Culture</Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Jobs</Nav.Link>
+                        <Link to="/job" className='nav-link'>Jobs</Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Blog</Nav.Link>
+                        <Link to="/blog" className='nav-link'>Blog</Link>
                     </Nav.Item>
                     <Nav.Item as="li" className='item-menu-header d-flex align-items-center'>
-                        <Nav.Link href="#">Gallery</Nav.Link>
+                        <Link to="/gallery" className='nav-link'>Gallery</Link>
                     </Nav.Item>
                 </Nav>
             </div>
-            <Search />
-        </>
+        </div>
     )
 }
 export default Header;

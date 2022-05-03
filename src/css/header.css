@@ -6,6 +6,12 @@
 .item-menu-header a:hover {
     color: #31cb9e !important;
 }
+.item-menu-header a:active{
+    color: #31cb9e !important;
+}
+.item-menu-header a:focus{
+    color: #31cb9e !important;
+}
 
 .img-banner {
     object-fit: cover;
