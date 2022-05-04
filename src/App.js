@@ -12,15 +12,14 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path='/'>
-            <Route index element={<Content />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/culture" element={<Team />} />
-            <Route path="/job" element={<Jobs />} />
-            <Route path="/blog" element={<Team />} />
-            <Route path="/gallery" element={<Team />} />
-            <Route path="/detail" element={<Detail />} />
-          </Route>
+          <Route path="/React-Kyber-Career" element={<Content />} />
+          <Route path="/" element={<Content />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/culture" element={<Team />} />
+          <Route path="/job" element={<Jobs />} />
+          <Route path="/blog" element={<Team />} />
+          <Route path="/gallery" element={<Team />} />
+          <Route path="/detail" element={<Detail />} />
         </Routes>
         <Footer />
       </BrowserRouter>
