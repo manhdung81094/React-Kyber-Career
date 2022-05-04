@@ -46,6 +46,10 @@ function Detail() {
                 <div className='row pt-3 detail-content'>
                     <h3>Job Description</h3>
                     <p>We are looking for a talented Product Manager who will take charge of the Kyber Network suite of products (including KyberSwap). This person will be reporting to our Head of Product / Senior Product Manager and will be working very closely with the development team (Smart Contract engineers,Backend/Frontend Engineers, Designers, QA, DevOps, etc.).An important aspect of this role will alose be to collaborate with various cross-functional teams like Marketing, Business Development and R&D.</p>
+                    <p>The ideal Product Manager will assist in product development by identifying potential features; conduct market research; generate product requirements; determine product specifications; create product launch plans and assist in developing marketing strategies.</p>
+                    <p>The Product Manager should be okay with ambiguity and willing to get their hands dirty. This person needs to be comfortable communicating with teams in different geographies. Project management is also an extremely important part of this role.</p>
+                    <h3>Job Responsibilities</h3>
+                    
                 </div>
             </div>
             <div className='row pb-5 pt-5'>
