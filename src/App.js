@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routes>
+        <Routes path="/*">
           <Route path="/" element={<Content />} />
           <Route path="/team" element={<Team />} />
           <Route path="/culture" element={<Team />} />
