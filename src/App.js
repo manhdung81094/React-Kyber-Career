@@ -11,14 +11,16 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routes path="/*">
-          <Route path="/" element={<Content />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/culture" element={<Team />} />
-          <Route path="/job" element={<Jobs />} />
-          <Route path="/blog" element={<Team />} />
-          <Route path="/gallery" element={<Team />} />
-          <Route path="/detail" element={<Detail />} />
+        <Routes>
+          <Route path="/">
+            <Route index element={<Content />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/culture" element={<Team />} />
+            <Route path="/job" element={<Jobs />} />
+            <Route path="/blog" element={<Team />} />
+            <Route path="/gallery" element={<Team />} />
+            <Route path="/detail" element={<Detail />} />
+          </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
