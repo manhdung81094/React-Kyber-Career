@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Kyber-Career/static/css/main.c318a69a.css",
-    "main.js": "/React-Kyber-Career/static/js/main.61ac31c4.js",
-    "static/media/banner.jpg": "/React-Kyber-Career/static/media/banner.86f5def232b49cd95d33.jpg",
-    "static/media/kyber-logo.svg": "/React-Kyber-Career/static/media/kyber-logo.93f661dadd0fb588da2da088231fa639.svg",
-    "static/media/kyber-logo-text-white.svg": "/React-Kyber-Career/static/media/kyber-logo-text-white.430a5b27ed21ebc93c7267c856a54251.svg",
-    "static/media/twitter.svg": "/React-Kyber-Career/static/media/twitter.2dc00bd5a3c3621c1e91982b4f404eec.svg",
-    "static/media/discord.svg": "/React-Kyber-Career/static/media/discord.b6a58a2a47f3b8dde30599d808d25ea6.svg",
-    "static/media/reddit.svg": "/React-Kyber-Career/static/media/reddit.2b54700c7691cdb9912aa053e401a347.svg",
-    "static/media/github.svg": "/React-Kyber-Career/static/media/github.558c91e87d3d55998e002f2ead14bfd8.svg",
-    "static/media/facebook.svg": "/React-Kyber-Career/static/media/facebook.34743f04768ec06624c9589a7339a917.svg",
-    "static/media/youtube.svg": "/React-Kyber-Career/static/media/youtube.e0529f9c53c2a9283d579171088699d2.svg",
-    "static/media/telegram.svg": "/React-Kyber-Career/static/media/telegram.197c1f2e5d7c27e72e47a11cd9ab0423.svg",
-    "index.html": "/React-Kyber-Career/index.html",
-    "static/media/medium-footer-icon.svg": "/React-Kyber-Career/static/media/medium-footer-icon.e55f26ca9b357daecae5da082679a73e.svg",
-    "static/media/ftx.svg": "/React-Kyber-Career/static/media/ftx.0a0986198fa891880d9437884a6e6b52.svg",
-    "main.c318a69a.css.map": "/React-Kyber-Career/static/css/main.c318a69a.css.map",
-    "main.61ac31c4.js.map": "/React-Kyber-Career/static/js/main.61ac31c4.js.map"
+    "main.css": "/static/css/main.c318a69a.css",
+    "main.js": "/static/js/main.b03275a8.js",
+    "static/media/banner.jpg": "/static/media/banner.86f5def232b49cd95d33.jpg",
+    "static/media/kyber-logo.svg": "/static/media/kyber-logo.93f661dadd0fb588da2da088231fa639.svg",
+    "static/media/kyber-logo-text-white.svg": "/static/media/kyber-logo-text-white.430a5b27ed21ebc93c7267c856a54251.svg",
+    "static/media/twitter.svg": "/static/media/twitter.2dc00bd5a3c3621c1e91982b4f404eec.svg",
+    "static/media/discord.svg": "/static/media/discord.b6a58a2a47f3b8dde30599d808d25ea6.svg",
+    "static/media/reddit.svg": "/static/media/reddit.2b54700c7691cdb9912aa053e401a347.svg",
+    "static/media/github.svg": "/static/media/github.558c91e87d3d55998e002f2ead14bfd8.svg",
+    "static/media/facebook.svg": "/static/media/facebook.34743f04768ec06624c9589a7339a917.svg",
+    "static/media/youtube.svg": "/static/media/youtube.e0529f9c53c2a9283d579171088699d2.svg",
+    "static/media/telegram.svg": "/static/media/telegram.197c1f2e5d7c27e72e47a11cd9ab0423.svg",
+    "index.html": "/index.html",
+    "static/media/medium-footer-icon.svg": "/static/media/medium-footer-icon.e55f26ca9b357daecae5da082679a73e.svg",
+    "static/media/ftx.svg": "/static/media/ftx.0a0986198fa891880d9437884a6e6b52.svg",
+    "main.c318a69a.css.map": "/static/css/main.c318a69a.css.map",
+    "main.b03275a8.js.map": "/static/js/main.b03275a8.js.map"
   },
   "entrypoints": [
     "static/css/main.c318a69a.css",
-    "static/js/main.61ac31c4.js"
+    "static/js/main.b03275a8.js"
   ]
 }
