@@ -2,7 +2,7 @@
   "name": "kyber-career",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manhdung81094.github.io",
+  "homepage": "https://manhdung81094.github.io/React-Kyber-Career",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
