@@ -5,6 +5,15 @@ import '../../css/job.css'
 
 function Job() {
     const [count, setCount] = useState('');
+    const openUpload = () => {
+        document.getElementById('input_file').click();
+    }
+    const [textFile, setTextFile] = useState('');
+    // const changeFile = (e) => {
+
+    //     setTextFile =  e.target.value.split('\\')[2];
+    //     document.getElementsByClassName('input-text').innerHTML = e.target.value.split('\\')[2];
+    // }
     return (
         <div className='container pt-5'>
             <div className='row pt-5'>
@@ -75,12 +84,14 @@ function Job() {
                         <div className='col-md-12 pt-3'>
                             <div className="mb-3">
                                 <label htmlFor="upload" className="form-label txt-color-job">Your CV/Resume *</label>
+                                <input type="file" name="input_file" id='input_file' onChange={e => setTextFile(e.target.value.split('\\')[2])} />
                                 <div className="searchbox-wrap col-md-12">
-                                    <input type="text" className="pt-2 pb-2" placeholder="Upload your CV here. File type: PNG,JPG,PDF,DOC,DOCX File size: Maximum 100MB" />
-                                    <button>
-                                        <span><FaUpload className='icon-upload'/> Upload file</span>
+                                    <input type="text" className="pt-2 pb-2 input-text" defaultValue={textFile} placeholder="Upload your CV here. File type: PNG,JPG,PDF,DOC,DOCX File size: Maximum 100MB" />
+                                    <button onClick={openUpload}>
+                                        <span className='d-flex align-items-center'><FaUpload className='icon-upload' />Upload file</span>
                                     </button>
                                 </div>
+
                             </div>
                         </div>
                         <div className='col-md-12 pt-3 pb-5'>
@@ -93,7 +104,7 @@ function Job() {
                                     <input type="text" className="form-control border-0 bg-color-input-job ps-3 pt-2 pb-2 text-end" id="count-txt" placeholder={count.length + '/120'} />
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-detail-item px-5 float-end">Submit Now</button>
+                            <button type="button" className="btn btn-detail-item px-5 float-end">Submit Now</button>
                         </div>
                     </div>
                 </div>

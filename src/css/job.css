@@ -50,27 +50,32 @@
     font-size: 1.1em;
     box-shadow: none;
     border: none;
-    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+    background-color: #f9f9f9 !important;
+    /* box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19); */
 }
-.searchbox-wrap input:focus-visible{
+
+.searchbox-wrap input::placeholder {
+    font-size: 1rem;
+}
+
+.searchbox-wrap input:focus-visible {
     outline: none !important;
     border: none !important;
 }
 
 .searchbox-wrap button {
     padding-right: 10px;
-    background-color: #fff;
-    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+    /* background-color: #fff; */
+    background-color: #f9f9f9 !important;
+    /* box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19); */
     border: none;
     cursor: pointer;
     cursor: hand;
 }
 
 .searchbox-wrap button span {
-    /* margin-left: 50px; */
-    /* padding: 24px 45px; */
-    padding: 1rem 2rem;
-    font-size: 0.9em;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
@@ -85,5 +90,10 @@
 }
 
 .icon-upload {
+    margin-right: 0.5rem !important;
     color: white;
+}
+
+#input_file {
+    display: none !important;
 }
