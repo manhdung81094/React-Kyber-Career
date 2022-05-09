@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Kyber-Career/static/css/main.a3cad8b4.css",
-    "main.js": "/React-Kyber-Career/static/js/main.786ab474.js",
+    "main.css": "/React-Kyber-Career/static/css/main.986e699e.css",
+    "main.js": "/React-Kyber-Career/static/js/main.93823a35.js",
     "static/media/banner.jpg": "/React-Kyber-Career/static/media/banner.86f5def232b49cd95d33.jpg",
     "static/media/kyber-logo.svg": "/React-Kyber-Career/static/media/kyber-logo.93f661dadd0fb588da2da088231fa639.svg",
     "static/media/kyber-logo-text-white.svg": "/React-Kyber-Career/static/media/kyber-logo-text-white.430a5b27ed21ebc93c7267c856a54251.svg",
@@ -15,11 +15,11 @@
     "index.html": "/React-Kyber-Career/index.html",
     "static/media/medium-footer-icon.svg": "/React-Kyber-Career/static/media/medium-footer-icon.e55f26ca9b357daecae5da082679a73e.svg",
     "static/media/ftx.svg": "/React-Kyber-Career/static/media/ftx.0a0986198fa891880d9437884a6e6b52.svg",
-    "main.a3cad8b4.css.map": "/React-Kyber-Career/static/css/main.a3cad8b4.css.map",
-    "main.786ab474.js.map": "/React-Kyber-Career/static/js/main.786ab474.js.map"
+    "main.986e699e.css.map": "/React-Kyber-Career/static/css/main.986e699e.css.map",
+    "main.93823a35.js.map": "/React-Kyber-Career/static/js/main.93823a35.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cad8b4.css",
-    "static/js/main.786ab474.js"
+    "static/css/main.986e699e.css",
+    "static/js/main.93823a35.js"
   ]
 }
