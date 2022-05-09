@@ -91,7 +91,6 @@ function Job() {
                                         <span className='d-flex align-items-center'><FaUpload className='icon-upload' />Upload file</span>
                                     </button>
                                 </div>
-
                             </div>
                         </div>
                         <div className='col-md-12 pt-3 pb-5'>

@@ -13,13 +13,40 @@
     font-size: 1rem;
     color: #868787;
 }
-.btn-detail-item{
+
+.btn-detail-item {
     color: #38e0ad !important;
     border: 1px solid #38e0ad !important;
     border-radius: 1.5rem !important;
 }
-.btn-detail-item:hover{
+
+.btn-detail-item:hover {
     color: #fff !important;
     background-color: #38e0ad !important;
     border-radius: 1.5rem !important;
+}
+
+.txt-modal {
+    color: #868787;
+    font-weight: 600;
+}
+
+.icon-modal {
+    color: #868787;
+    font-size: 2rem;
+}
+
+.link-modal {
+    text-decoration: none;
+    color: #868787;
+}
+
+.link-modal:hover {
+    text-decoration: none;
+    color: #868787;
+}
+.btn-close{
+    padding: 0 !important;
+    margin-bottom: 0.5rem !important;
+    margin-right: 1rem !important;
 }
