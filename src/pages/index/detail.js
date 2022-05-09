@@ -42,7 +42,7 @@ function Detail() {
                             <button type="button" className="btn btn-detail-item px-5">Share this job</button>
                         </li>
                         <li className="list-group-item border-0">
-                            <button type="button" className="btn btn-detail-item px-5">Get in touch</button>
+                            <button type="button" className="btn btn-detail-item px-5" onClick={handleShow}>Get in touch</button>
                         </li>
                     </ul>
                 </div>
